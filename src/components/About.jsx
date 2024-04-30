@@ -5,7 +5,7 @@ import spag from '../assets/Subject.png';
 const About = () => {
     return (  
         <div className="mt-[20px] px-[20px] flex flex-col justify-center items-center font-monts">
-            <img src={ spag } className='z-[-10] top-[-80px] w-[170px] md:w-[210px]'/>
+            <img src={ spag } className='z-[-10] top-[-80px] w-[170px] md:w-[210px] lg:hidden'/>
             <p className="text-center text-[35px] font-bold">About The Company</p>
             <div className="flex flex-col md:flex-row gap-[30px] md:gap-[10px] mt-[20px]">
                 <div className="flex flex-col justify-center items-center space-y-[10px]">
