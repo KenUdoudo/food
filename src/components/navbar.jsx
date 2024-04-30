@@ -15,7 +15,7 @@ const Navbar = () => {
     return (  
         <div className="bg-[#E9E9E9] px-[20px] py-[10px] flex flex-row justify-between items-center font-monts">
             <div className="flex flex-row items-center gap-[6px]">
-                <IoFastFood className="text-[#F7941D]" />
+                <IoFastFood className="text-[#F7941D] w-[25px] h-[25px]" />
                 <p className="text-[18px] font-semibold">FOOD</p>
             </div>
             <div className="flex flex-row items-center gap-[6px] md:hidden">
