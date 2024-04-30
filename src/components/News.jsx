@@ -9,7 +9,7 @@ const News = () => {
             <div className="flex flex-col md:flex-row justify-evenly items-center w-full gap-y-[20px] md:gap-x-[10px] md:mt-[20px]">
                 <div className='w-[60%] md:w-[33%] h-[270px] rounded-[10px] overflow-hidden relative shadow-xl'>
                     <img src={ chicken } className='object-cover mt-[-80px]'/>
-                    <div className='absolute bottom-0 bg-white p-[10px]'>
+                    <div className='absolute bottom-0 bg-white p-[10px] w-full'>
                         <p className='text-[10px] text-gray-500'>Jan 15 2024</p>
                         <p className="text-[14px] font-semibold">Lorem ipsum dolor sit amet consectetur</p>
                         <hr className='py-[5px]'/>
@@ -21,7 +21,7 @@ const News = () => {
                 </div>
                 <div className='w-[60%] md:w-[33%] h-[270px] rounded-[10px] overflow-hidden relative shadow-xl'>
                     <img src={ stakee } className='object-cover mt-[-80px]'/>
-                    <div className='absolute bottom-0 bg-white p-[10px]'>
+                    <div className='absolute bottom-0 bg-white p-[10px] w-full'>
                         <p className='text-[10px] text-gray-500'>Jan 15 2024</p>
                         <p className="text-[14px] font-semibold">Lorem ipsum dolor sit amet consectetur</p>
                         <hr className='py-[5px]'/>
@@ -33,7 +33,7 @@ const News = () => {
                 </div>
                 <div className='w-[60%] md:w-[33%] h-[270px] rounded-[10px] overflow-hidden relative shadow-xl'>
                     <img src={ sushi } className='object-cover mt-[-40px]'/>
-                    <div className='absolute bottom-0 bg-white p-[10px]'>
+                    <div className='absolute bottom-0 bg-white p-[10px] w-full'>
                         <p className='text-[10px] text-gray-500'>Jan 15 2024</p>
                         <p className="text-[14px] font-semibold">Lorem ipsum dolor sit amet consectetur</p>
                         <hr className='py-[5px]'/>
