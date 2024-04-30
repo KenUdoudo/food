@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        monts: ["Roboto", "san-serif" ],
+        monts: ["Roboto", "" ],
       },
     },
   },

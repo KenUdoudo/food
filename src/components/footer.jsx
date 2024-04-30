@@ -10,6 +10,12 @@ const Footer = () => {
                     <IoFastFood className="text-[#F7941D]" />
                     <p className="text-[18px] text-white font-semibold">FOOD</p>
                 </div>
+                <div className="hidden md:flex flex-row justify-center items-center gap-x-[20px]">
+                    <a href="#" className="text-[13px] text-gray-500">Home</a>
+                    <a href="#" className="text-[13px] text-gray-500">About Us</a>
+                    <a href="#" className="text-[13px] text-gray-500">Products</a>
+                    <a href="#" className="text-[13px] text-gray-500">Contact Us</a>
+                </div>
                 <div className="flex flex-row items-center space-x-[6px]">
                     <div className="bg-[#F7941D] rounded-full p-[5px]"><FaTelegramPlane className="text-white" /></div>
                     <div className="bg-[#F7941D] rounded-full p-[5px]"><RiInstagramFill className="text-white"/></div>
