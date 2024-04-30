@@ -1,7 +1,7 @@
 
 const Welcome = () => {
     return (  
-        <div className="px-[20px] mt-[40px]">
+        <div className="px-[20px] mt-[40px] font-monts">
             <div className="flex flex-col justify-center items-center text-center space-y-[14px]">
                 <p className="text-[13px] text-[#F7941D] bg-[#FFD4A1] p-[5px] rounded-[5px]">WELCOME TO OUR RESTAURANT</p>
                 <p className="text-[35px] font-bold">Delicious Foods <br />For Every Occasion <br />And Festival</p>

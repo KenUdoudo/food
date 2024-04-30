@@ -4,7 +4,7 @@ import salad from '../assets/Subject(4).png';
 import stake from '../assets/Subject(3).png';
 const Popular = () => {
     return (  
-        <div className="px-[20px] py-[40px] mt-[20px] bg-[#E9E9E9]">
+        <div className="px-[20px] py-[40px] mt-[20px] bg-[#E9E9E9] font-monts">
             <p className="text-center text-[35px] font-bold">Our Popular Foods Menu</p>
             <div className="flex flex-col gap-[10px] justify-center items-center">
                 <div className='w-full flex flex-row gap-[10px] items-center'>

@@ -4,7 +4,7 @@ import { MdFastfood } from "react-icons/md";
 import spag from '../assets/Subject.png';
 const About = () => {
     return (  
-        <div className="mt-[20px] px-[20px] flex flex-col justify-center items-center">
+        <div className="mt-[20px] px-[20px] flex flex-col justify-center items-center font-monts">
             <img src={ spag } className='z-[-10] top-[-80px] w-[170px]'/>
             <p className="text-center text-[35px] font-bold">About The Company</p>
             <div className="flex flex-col gap-[30px] mt-[20px]">

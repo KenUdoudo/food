@@ -3,7 +3,7 @@ import stakee from '../assets/stake.png';
 import sushi from '../assets/sushi.png';
 const News = () => {
     return (  
-        <div className="px-[20px] mt-[20px]">
+        <div className="px-[20px] mt-[20px] font-monts">
             <div className="flex flex-col justify-center items-center"><p className="text-[13px] text-[#F7941D] bg-[#FFD4A1] p-[5px] rounded-[5px]">LATEST BLOG</p>
             <p className="text-center text-[35px] font-bold px-[30px]">Our Latest Foods News</p></div>
             <div className="flex flex-col justify-evenly items-center w-full gap-y-[20px]">

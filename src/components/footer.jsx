@@ -5,7 +5,7 @@ import { FaTwitter } from "react-icons/fa6";
 import { FaFacebook } from "react-icons/fa";
 const Footer = () => {
     return (
-        <div className="px-[20px] py-[10px] mt-[40px] bg-black flex flex-row justify-between">
+        <div className="px-[20px] py-[10px] mt-[40px] bg-black flex flex-row justify-between font-monts">
                 <div className="flex flex-row items-center gap-[6px]">
                     <IoFastFood className="text-[#F7941D]" />
                     <p className="text-[18px] text-white font-semibold">FOOD</p>
